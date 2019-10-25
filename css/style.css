@@ -18,3 +18,38 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  height: 30px;
+}
+
+h2:after {
+  /* create the background */
+  content: "";
+  display: block;
+  height: 160%;
+  width: 100%;
+  background: #9CFC97;
+  position: absolute;
+  top: 10px;
+  left: -5px;
+  z-index: -1;
+  /* animation rules specifies things like animation duration, direction, name, iteration, etc. but won't animate without using @keyframes */
+  animation: monAnim 1s infinite ease-in-out alternate;
+}
+
+/* use @keyframes to carry out the animation */
+@keyframes monAnim {
+  0% {
+    transform: translateY(4px) translateX(-12px);
+  }
+  100% {
+    transform: translateY(-12px) translateX(4px);
+  }
+}
