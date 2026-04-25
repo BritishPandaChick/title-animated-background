@@ -1,11 +1,14 @@
 # Giving Your Title an Animated Background
-CodePlayer Giving Your Title an Animated Background project. Made with HTML and CSS.
+A title an animated background 
+
+## Tech Stack
+- HTML
+- CSS
 
 ## Instructions
-Clone the repo or download zip file. Open index.html file in your browser.
-
-## Contributions
-This code is based on starter code from TheCodePlayer.com. Therefore I will not be accepting any pull requests.
+1. Clone the repo or download zip file. 
+2. Open index.html file in your browser.
+3. A headline will be at the top of the page. The animation for the background will begin moving behind the text.
 
 ## Acknowledgements
 * TheCodePlayer.com
